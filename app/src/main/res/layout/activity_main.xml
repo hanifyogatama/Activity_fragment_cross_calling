@@ -20,6 +20,9 @@
         android:layout_height="wrap_content"
         app:layout_constraintGuide_percent=".20"/>
 
+
+
+
     <ImageView
         android:scaleType="centerCrop"
         android:layout_width="wrap_content"
