@@ -18,13 +18,15 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun activityToast() {
-        Toast.makeText(this, "Dijalankan dari Activity", Toast.LENGTH_SHORT).show()
-    }
-
     private fun loadFragment(fragmentPart: This_Fragment) {
         supportFragmentManager.beginTransaction()
             .replace(fl_container.id, fragmentPart)
             .commit()
     }
+
+    fun activityToast() {
+        Toast.makeText(this, "run from Activity", Toast.LENGTH_SHORT).show()
+    }
+
+
 }
